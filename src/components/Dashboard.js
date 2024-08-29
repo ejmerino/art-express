@@ -1,9 +1,12 @@
+// src/pages/Dashboard.js
 import React from 'react';
+import Customers from '../components/Customers';
 
 const Dashboard = () => {
   return (
-    <div className="min-h-screen bg-gray-100 p-6">
-      <h2 className="text-3xl font-bold mb-4">Dashboard</h2>
+    <div>
+      <h1 className="text-4xl font-bold mb-6">Dashboard</h1>
+      <Customers />
     </div>
   );
 };
